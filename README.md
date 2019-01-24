@@ -11,3 +11,6 @@ Vad ska jag göra?
 ### Arbetsgång
 Onsdag v.4
 * Började lära mig pug typ
+
+Torsdag v.4
+* Fortsatte med html/css

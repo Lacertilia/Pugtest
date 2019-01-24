@@ -6,7 +6,7 @@ Vad ska jag göra?
 * Hemsidan
 * Mobile first
 
-
+* Vecka 4 ska jag vara nära klar med htmlen för förstasidan.
 
 ### Arbetsgång
 Onsdag v.4

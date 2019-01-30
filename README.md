@@ -8,9 +8,15 @@ Vad ska jag göra?
 
 * Vecka 4 ska jag vara nära klar med htmlen för förstasidan.
 
+* Vecka 5 Onsdag ska jag få in sista htmlen.
+* Vecka 5 Torsdag ska jag börja styla hemsidan.
+
 ### Arbetsgång
 Onsdag v.4
 * Började lära mig pug typ
 
 Torsdag v.4
 * Fortsatte med html/css
+
+Onsdag v.5
+* Startsida html klar, ser bra ut om man har 4:3 typ. Ska fortsätta styla så det ser bra ut med 16:9 också, samt för mobil.

@@ -20,3 +20,6 @@ Torsdag v.4
 
 Onsdag v.5
 * Startsida html klar, ser bra ut om man har 4:3 typ. Ska fortsätta styla så det ser bra ut med 16:9 också, samt för mobil.
+
+Torsdag V.5
+* Startsida Css klar för desktop, men inte helt klar för mobil, då knapparna går in i varandra. Det blir vad jag fortsätter med nästa vecka.

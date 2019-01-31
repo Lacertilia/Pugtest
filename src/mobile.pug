@@ -6,12 +6,28 @@ html(lang="en")
         meta(http-equiv = "X-UA-Compatible", content = "ie=edge")
         link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous") 
         title BildTerapiHuset
-        style body{background-color: #141829; overflow: hidden;}main{width: 80vw; height: 100vh; margin-left: 10%; background-color: #9fd0bb; text-align: center;}.navbar{padding: 0; margin: 0; background-color: #214683; width: 80vw;}@media screen and (max-width: 400px;){}img{margin: 0; padding: 0;}.container{margin: 0; padding: 0; width: 80vw; text-align: center;}div{margin: 0; padding: 0;}.col-3{margin: 0; padding: 0; }.navbar-brand{margin: 0; padding: 0;}.col-4{margin: 0; padding: 0;}h1, p{background-color: white;}.row{margin: 0; padding: 0; width: 80vw;}
+        style main{height: 100vh;background-color: #9fd0bb; text-align: center;}.btn-dark{background-color: #214683;}#buttons{background-color: white; padding-top: 5px; padding-bottom: 5px;}.navbar{padding: 0; margin: 0; background-color: #214683; width: 80vw;}img{margin: 0; padding: 0;}.container{margin: 0; padding: 0; width: 100vw; text-align: center;}div{margin: 0; padding: 0;}.col-3{margin: 0; padding: 0; }.navbar-brand{margin: 0; padding: 0;}.col-4{margin: 0; padding: 0;}h1, p{background-color: white;}.row{margin: 0; padding: 0; width: 100vw;}
     body
         main
-            include nav.pug
+            script(type="") if(screen.width >= 700){document.location = "index.html";}
 
-            script(type="") if(screen.width <= 699){document.location = "mobile.html";}
+            .container
+                .row
+                    .col-12
+                        a(class="navbar-brand" href="index.html")
+                            img(id="logo" class="img-fluid" src="images/BTHLogo.png" alt="BTH")
+            div(class="container" id="buttons")
+                .row
+                    .col-3
+                        a(class="navbar-brand btn btn-dark" href="https://www.netflix.com/" target="_blank") Aktuellt
+                    .col-3
+                        a(class="navbar-brand btn btn-dark") Vi Bildteraputer
+                    .col-3
+                        a(class="navbar-brand btn btn-dark") Resurser och Länkar
+                    .col-3
+                        a(class="navbar-brand btn btn-dark") Kontakt
+
+            
             
             .container
                 .row
@@ -23,10 +39,10 @@ html(lang="en")
                         h1(class="title") Titel
                     .col-3
                 .row
-                    .col-3
-                    .col-6
+                    .col-1
+                    .col-10
                         p(class="text") Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, unde ipsum ratione, voluptatibus maxime ex, similique eligendi eius ducimus animi odit. Optio molestiae quae eum, aperiam maiores velit magnam doloribus.
-                    .col-3
+                    .col-1
                 
 
 

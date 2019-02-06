@@ -11,6 +11,7 @@ Vad ska jag göra?
 * Vecka 5 Onsdag ska jag få in sista htmlen.
 * Vecka 5 Torsdag ska jag börja styla hemsidan.
 
+* Vecka 6 Onsdag ska jag fixa klart mobil-sidan
 ### Arbetsgång
 Onsdag v.4
 * Började lära mig pug typ
@@ -23,3 +24,6 @@ Onsdag v.5
 
 Torsdag V.5
 * Startsida Css klar för desktop, men inte helt klar för mobil, då knapparna går in i varandra. Det blir vad jag fortsätter med nästa vecka.
+
+Onsdag V.6
+* Index-sida klar med information från bildterapihuset.se. 

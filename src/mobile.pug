@@ -6,43 +6,79 @@ html(lang="en")
         meta(http-equiv = "X-UA-Compatible", content = "ie=edge")
         link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous") 
         title BildTerapiHuset
-        style main{height: 100vh;background-color: #9fd0bb; text-align: center;}.btn-dark{background-color: #214683;}#buttons{background-color: white; padding-top: 5px; padding-bottom: 5px;}.navbar{padding: 0; margin: 0; background-color: #214683; width: 80vw;}img{margin: 0; padding: 0;}.container{margin: 0; padding: 0; width: 100vw; text-align: center;}div{margin: 0; padding: 0;}.col-3{margin: 0; padding: 0; }.navbar-brand{margin: 0; padding: 0;}.col-4{margin: 0; padding: 0;}h1, p{background-color: white;}.row{margin: 0; padding: 0; width: 100vw;}
+        style main{height: relative;background-color: #9fd0bb; text-align: center;}.col-6{background-color: white;}.btn-dark{background-color: #214683;}#buttons{background-color: white; padding-top: 5px; padding-bottom: 5px;}.navbar{padding: 0; margin: 0; background-color: #214683; width: 100vw;}img{margin: 0; padding: 0;}.container{margin: 0; padding: 0; width: 100vw; text-align: center;}@media screen and (max-width: 400px){.btn{font-size: 0.8em;}}div{margin: 0; padding: 0;}.col-3{margin: 0; padding: 0; }.navbar-brand{margin: 0; padding: 0;}.col-4{margin: 0; padding: 0;}.title, .text{background-color: white;}.row{margin: 0; padding: 0; width: 100vw;}
     body
         main
-            script(type="") if(screen.width >= 700){document.location = "index.html";}
+            script(type="") if(screen.width > 700){document.location = "index.html";}
 
             .container
                 .row
                     .col-12
-                        a(class="navbar-brand" href="index.html")
+                        a(class="navbar-brand" href="mobile.html")
                             img(id="logo" class="img-fluid" src="images/BTHLogo.png" alt="BTH")
             div(class="container" id="buttons")
                 .row
                     .col-3
-                        a(class="navbar-brand btn btn-dark" href="https://www.netflix.com/" target="_blank") Aktuellt
+                        a(class="navbar-brand btn btn-dark" href="") Aktuellt
                     .col-3
-                        a(class="navbar-brand btn btn-dark") Vi Bildteraputer
+                        a(class="navbar-brand btn btn-dark" href="") Vi Bildteraputer
                     .col-3
-                        a(class="navbar-brand btn btn-dark") Resurser och Länkar
+                        a(class="navbar-brand btn btn-dark" href="") Resurser och Länkar
                     .col-3
-                        a(class="navbar-brand btn btn-dark") Kontakt
+                        a(class="navbar-brand btn btn-dark" href="") Kontakt
 
             
             
             .container
                 .row
                     .col-12
-                        img(src="images/fin-bild-2.jpg" class="img-fluid" alt="Fin Bild")
+                        img(src="images/kritor.jpg")
                 .row
                     .col-3
                     .col-6
-                        h1(class="title") Titel
+                        h4(class="title") Välkommen till Bildterapihuset på Brogatan 5 i Umeå
                     .col-3
                 .row
-                    .col-1
-                    .col-10
-                        p(class="text") Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, unde ipsum ratione, voluptatibus maxime ex, similique eligendi eius ducimus animi odit. Optio molestiae quae eum, aperiam maiores velit magnam doloribus.
-                    .col-1
+                    .col-3
+                    .col-6
+                        a(class="text" href="") Klicka här för att läsa mer om vad Bildterapihuset kan erbjuda dig!
+                    .col-3
+                .row
+                    .col-3
+                    .col-6
+                        p(class="text") Bildterapihuset drivs av ett nätverk av bildterapeuter. Vi har vår verksamhet i en funktionellt inredd lokal på Brogatan 5. Huset ligger inne på gården, i huset bakom Swefo foto. Vår lokal ligger i källarvåningen och det står Bildterapihuset på dörren. Vi erbjuder bildterapi för individer, familjer och grupper, handledning, kurser och workshops. Klicka på länken ”Vi bildterapeuter” så ser du vilka vi är och hur du får kontakt med oss.
+                    .col-3
+                .row
+                    .col-3
+                    .col-6
+                        h4(class="title") Bildterapi passar för dig som söker
+                    .col-3
+                .row
+                    .col-3
+                    .col-6
+                        p(class="text") - Utveckling och förändring på det personliga planet <br>
+                            |- Stöd i bearbetning av en aktuell eller genomgången kris <br>
+                            |- Andra uttryckssätt än orden
+                .row
+                    .col-3
+                    .col-6
+                        h4(class="title") Bildterapeutiska metoder passar för gruppen som vill
+                .row
+                    .col-3
+                    .col-6
+                        p(class="text") - Undersöka och förbättra sina kommunikationsmönster<br>
+                            |- Utveckla kreativitet, lust och motivation i arbetet<br>
+                            |- Lära känna sig själva och varandra
+                .row
+                    .col-3
+                    .col-6
+                        p(class="text") Vi är högskoleutbildade bildterapeuter med lång yrkeserfarenhet från socialt arbete, vård, specialpedagogik och själavårdande arbete. Vi är alla medlemmar i Sveriges Riksförbund för bildterapeuter (SRBt), följer deras Etiska riktlinjer och erhåller handledning på vårt arbete.
+                .row
+                    .col-3
+                    .col-6
+                        p(class="text") Ytterligare information och bokningar via 
+                            a(href="mailto:kgunillak@gmail.com") kgunillak@gmail.com
+
                 
 
 
